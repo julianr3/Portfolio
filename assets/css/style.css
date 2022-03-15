@@ -24,7 +24,7 @@ article h2 {
   width: 30%; */
   width: 20%;
     border-right: 3px solid orange;
-    margin-right: 10px;
+    /* margin-right: 10px; */
 }
 
 nav ul {
@@ -54,17 +54,18 @@ main {
 
 
 
-section {
+/* section {
   flex: 1 1 0;
   flex-direction: row;
   padding-left: 5%;
-}
+} */
 
 img {
   display: block;
   flex-direction: row;
   width: 700px;
-  margin: auto;
+  width: 80%;
+  margin-left: 2rem;
 }
 
 /* article p {
@@ -83,6 +84,7 @@ img {
 } */
 article p {
   width: 80%;
+  margin-left: 2rem;
 }
 
 article ul {
@@ -153,10 +155,16 @@ footer {
 
 h3 {
   display: flex;
-  position: relative;
-  bottom: 55rem;
+  position: sticky;
+  bottom: 47rem;
+  margin-left: 2rem;
+  margin-top: 3rem;
   background-color: orange;
   padding: 5px 3px;
   width: 22%;
 
+}
+
+article #workdesk-section {
+  width: 80%;
 }
