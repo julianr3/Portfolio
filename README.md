@@ -23,7 +23,7 @@ Easy navigation throughout the website, all resources one-click away.
 
 Launch the website, and select between multiple navigational options listed at the top-right corner of the page for quick access to the selected section.
 
-![alt text](assets/images/Portfolio.png)
+![Image of website](assets/images/Portfolio.png)
 
 ## Credits
 
@@ -31,7 +31,7 @@ Kyle Giuanta https://github.com/kgiunta
 Isaak Morales https://github.com/CallMeIce
 
 ## License
-
+Not Applicable
 
 ## Badges
 
