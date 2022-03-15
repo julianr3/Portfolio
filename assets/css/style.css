@@ -7,24 +7,12 @@ header {
   color: #fff;
 }
 
-/* Change font size of headings */
-h1 {
-  font-size: 200%;
-  background-color: #00eeee;
-  color: #455463;
-  padding: 0px 40px;
-  margin: 0px;
-}
-
-/* Change the margin */
-article h2 {
-  /* margin: 2%;
-  font-size: 150%;
-  text-align: right;
-  width: 30%; */
-  width: 20%;
-    border-right: 3px solid orange;
-    /* margin-right: 10px; */
+#banner {
+  background-image: url("./../images/Sega.jpg");
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  height: 400px;
 }
 
 nav ul {
@@ -40,8 +28,9 @@ nav ul {
 
 nav a {
   color: #00eeee;
-    text-decoration: underline;
-    text-decoration-thickness: 3px;
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+
 }
 
 main {
@@ -53,12 +42,21 @@ main {
 }
 
 
+/* Change font size of headings */
+h1 {
+  font-size: 200%;
+  background-color: #00eeee;
+  color: #455463;
+  padding: 0px 40px;
+  margin: 0px;
+}
 
-/* section {
-  flex: 1 1 0;
-  flex-direction: row;
-  padding-left: 5%;
-} */
+/* Change the margin */
+article h2 {
+  width: 20%;
+  border-right: 3px solid orange;
+ 
+}
 
 img {
   display: block;
@@ -68,20 +66,6 @@ img {
   margin-left: 2rem;
 }
 
-/* article p {
-  margin: 2% 0;
-  font-size: 110%;
-  border-left:  2px solid #d8a47f;
-  padding-left: 20px;
-} */
-
-/* Change the margin specifically */
-/* article ul {
-  margin-left: 5%;
-  margin-bottom: 2%;
-  font-size: 110%;
-  list-style: circle;
-} */
 article p {
   width: 80%;
   margin-left: 2rem;
@@ -99,17 +83,10 @@ article ul {
   text-decoration: underline;
 }
 
-  article {
-    display: flex;
-    flex-direction: row;
+article {
+  display: flex;
+  flex-direction: row;
   }
-
-input,
-button {
-  width: 100%;
-  margin: 2% 0;
-  padding: 1%;
-}
 
 footer {
   display: flex;
@@ -133,19 +110,6 @@ footer {
   nav li {
     padding: 14px 20px;
   }
-
-  /* section {
-    padding-right: 0;
-  } */
-
-}
-
-#banner {
-  background-image: url("./../images/Sega.jpg");
-  background-position: center center;
-  background-size: cover;
-  width: 100%;
-  height: 400px;
 }
 
 #links {
@@ -178,6 +142,7 @@ code-card .card-header {
   border-radius: 8px;
   transition: all 0.5s ease-in-out;
 }
+
 img:hover,
 img:hover .card-header {
   box-shadow: inset 0px 0px 8px rgb(207, 97, 46), 0 0 15px rgb(207, 97, 46);

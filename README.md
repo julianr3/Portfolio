@@ -23,7 +23,7 @@ Easy navigation throughout the website, all resources one-click away.
 
 Launch the website, and select between multiple navigational options listed at the top-right corner of the page for quick access to the selected section.
 
-![alt text](assets/images/insertname.jpeg)
+![alt text](assets/images/Portfolio.png)
 
 ## Credits
 
