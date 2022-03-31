@@ -71,7 +71,7 @@ img {
 }
 
 article p {
-  width: 80%;
+  width: 40%;
   margin-left: 2rem;
 }
 
@@ -157,4 +157,10 @@ code-card .card-header {
 img:hover,
 img:hover .card-header {
   box-shadow: inset 0px 0px 8px rgb(207, 97, 46), 0 0 15px rgb(207, 97, 46);
+}
+
+
+#photo {
+  width: 30%;
+  height: 30%;
 }
